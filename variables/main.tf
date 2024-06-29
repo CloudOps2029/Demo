@@ -129,9 +129,3 @@ resource "aws_security_group" "ec2" {
   }
 }
 
-# Backend Configuration
-# module "backend" {
-#   source              = "./modules/backend"
-#   bucket_name         = "tf-be-bucket"
-#   dynamodb_table_name = "tf-lock-table"
-# }
